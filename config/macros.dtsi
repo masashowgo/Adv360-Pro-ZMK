@@ -1,3 +1,9 @@
+macro_macro_under: macro_macro_under{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_under";
+#binding-cells = <0>;
+bindings = <&kp UNDERSCORE>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
